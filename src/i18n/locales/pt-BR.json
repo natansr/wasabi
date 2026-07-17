@@ -9,7 +9,7 @@
     "guideTitle": "Como começar", "guideDescription": "Um projeto de revisão da literatura pode ser preparado em poucos passos:",
     "guide": {
       "create": { "title": "Crie o projeto", "description": "Informe a pergunta, o recorte, as bases consultadas e os critérios da revisão." },
-      "import": { "title": "Importe o corpus", "description": "Adicione o arquivo CSV exportado pelo Scopus e confira o mapeamento dos campos." },
+      "import": { "title": "Importe o corpus", "description": "Adicione o arquivo CSV exportado pela base consultada (por exemplo, Scopus) e confira o mapeamento dos campos." },
       "review": { "title": "Revise os resultados", "description": "Examine duplicatas, indicadores, gráficos, redes e agrupamentos." },
       "export": { "title": "Guarde uma cópia", "description": "Exporte o projeto em .wasabi.json e gere as tabelas ou o relatório da revisão." }
     },

@@ -9,7 +9,7 @@
     "guideTitle": "How to begin", "guideDescription": "A literature review project can be prepared in a few steps:",
     "guide": {
       "create": { "title": "Create the project", "description": "Enter the question, scope, searched databases, and review criteria." },
-      "import": { "title": "Import the corpus", "description": "Add the CSV file exported by Scopus and check the field mapping." },
+      "import": { "title": "Import the corpus", "description": "Add the CSV file exported by the database you searched (for example, Scopus) and check the field mapping." },
       "review": { "title": "Review the results", "description": "Examine duplicates, indicators, charts, networks, and clusters." },
       "export": { "title": "Keep a copy", "description": "Export the project as .wasabi.json and generate review tables or the report." }
     },

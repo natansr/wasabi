@@ -58,7 +58,7 @@ npx playwright install chromium
 
 ## License
 
-Wasabi is released under the MIT License. See [LICENSE](LICENSE).
+Wasabi is free software released under the GNU General Public License, version 3 or later (GPL-3.0-or-later). See [LICENSE](LICENSE).
 
 ## Citation
 

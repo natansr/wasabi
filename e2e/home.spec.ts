@@ -15,6 +15,7 @@ test('apresenta o início e navega para um novo projeto', async ({ page }) => {
   await expect(page.locator('html')).not.toHaveClass(/dark/);
   await expect(page.getByRole('heading', { level: 1, name: 'Wasabi' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Wasabi', exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: /GitHub: natansr\/wasabi/ })).toHaveAttribute('href', 'https://github.com/natansr/wasabi');
   await expect(page.getByRole('heading', { name: 'Como começar' })).toBeVisible();
   await page.getByRole('link', { name: 'Novo projeto' }).click();
   await expect(page).toHaveURL(/#\/projects\/new$/);

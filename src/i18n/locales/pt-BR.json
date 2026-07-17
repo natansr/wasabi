@@ -9,11 +9,11 @@
     "guideTitle": "Como começar", "guideDescription": "Um projeto pode ser preparado em poucos passos:",
     "guide": {
       "create": { "title": "Crie o projeto", "description": "Informe a pergunta, o recorte, as bases consultadas e os critérios da revisão." },
-      "import": { "title": "Importe o corpus", "description": "Adicione um arquivo CSV ou BibTeX e confira o mapeamento dos campos." },
+      "import": { "title": "Importe o corpus", "description": "Adicione o arquivo CSV exportado pelo Scopus e confira o mapeamento dos campos." },
       "review": { "title": "Revise os resultados", "description": "Examine duplicatas, indicadores, gráficos, redes e agrupamentos." },
       "export": { "title": "Guarde uma cópia", "description": "Exporte o projeto em .wasabi.json e gere as tabelas ou o relatório da revisão." }
     },
-    "temacTitle": "O fluxo metodológico do TEMAC", "temacDescription": "A organização do Wasabi segue as três etapas do TEMAC: preparação da pesquisa; apresentação e inter-relação dos dados; detalhamento e validação por evidências.", "temacLink": "Consultar o site Pesquisa TEMAC"
+    "temacTitle": "O fluxo metodológico do TEMAC", "temacDescription": "A organização do Wasabi segue as três etapas do TEMAC: preparação da pesquisa; apresentação e inter-relação dos dados; detalhamento e validação por evidências.", "temacLink": "Consultar o site Pesquisa TEMAC", "footer": { "by": "Desenvolvido por ANDSol/UEG", "with": "Desenvolvido com S2" }
   },
   "sample": { "title": "Exemplo: mapeamento científico integrado", "objective": "Demonstrar o fluxo bibliométrico integrado do Wasabi.", "question": "Como métodos bibliométricos apoiam a síntese de evidências?", "area": "Ciência da Informação", "inclusion": "Artigos e trabalhos completos sobre análise bibliométrica", "exclusion": "Registros sem relação com mapeamento científico", "notes": "Projeto fictício criado apenas para demonstração das funcionalidades." },
   "temac": { "stage": {

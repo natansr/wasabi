@@ -44,6 +44,17 @@ export function HomePage() {
         </section>
         <section className="border-y border-wasabi-100 bg-white px-5 py-14"><div className="mx-auto max-w-7xl"><div className="max-w-3xl"><h2 className="text-3xl font-bold text-wasabi-900">{t('home.temacTitle')}</h2><p className="mt-3 text-lg leading-8 text-slate-600">{t('home.temacDescription')}</p><a href="https://www.pesquisatemac.com" target="_blank" rel="noreferrer" className="mt-4 inline-block font-sans font-semibold text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">{t('home.temacLink')}</a></div><div className="mt-9 grid gap-5 md:grid-cols-3">{stages.map((stage, index) => <article key={stage} className="rounded-2xl border border-slate-200 p-5"><p className="font-sans text-sm font-bold text-wasabi-500">{index + 1}</p><h3 className="mt-2 text-xl font-bold text-slate-800">{t(`temac.stage.${stage}`)}</h3><p className="mt-2 leading-7 text-slate-600">{t(`temac.stage.${stage}Description`)}</p></article>)}</div></div></section>
       </PageContainer>
+      <footer className="border-t border-slate-200 bg-slate-50 px-5 py-6 font-sans text-sm text-slate-600">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-3 gap-y-2 text-center">
+          <span>© 2026 Wasabi</span>
+          <span aria-hidden="true">·</span>
+          <span>{t('home.footer.by')}</span>
+          <span aria-hidden="true">·</span>
+          <span>{t('home.footer.with')}</span>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/natansr/wasabi" target="_blank" rel="noreferrer" className="font-semibold text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">GitHub: natansr/wasabi ↗</a>
+        </div>
+      </footer>
     </div>
   );
 }

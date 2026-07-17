@@ -9,11 +9,11 @@
     "guideTitle": "How to begin", "guideDescription": "A project can be prepared in a few steps:",
     "guide": {
       "create": { "title": "Create the project", "description": "Enter the question, scope, searched databases, and review criteria." },
-      "import": { "title": "Import the corpus", "description": "Add a CSV or BibTeX file and check the field mapping." },
+      "import": { "title": "Import the corpus", "description": "Add the CSV file exported by Scopus and check the field mapping." },
       "review": { "title": "Review the results", "description": "Examine duplicates, indicators, charts, networks, and clusters." },
       "export": { "title": "Keep a copy", "description": "Export the project as .wasabi.json and generate review tables or the report." }
     },
-    "temacTitle": "The TEMAC methodological workflow", "temacDescription": "Wasabi follows the three TEMAC stages: research preparation; data presentation and interrelation; and evidence detailing and validation.", "temacLink": "Visit the Pesquisa TEMAC website"
+    "temacTitle": "The TEMAC methodological workflow", "temacDescription": "Wasabi follows the three TEMAC stages: research preparation; data presentation and interrelation; and evidence detailing and validation.", "temacLink": "Visit the Pesquisa TEMAC website", "footer": { "by": "Developed by ANDSol/UEG", "with": "Developed with S2" }
   },
   "sample": { "title": "Example: integrated scientific mapping", "objective": "Demonstrate Wasabi's integrated bibliometric workflow.", "question": "How do bibliometric methods support evidence synthesis?", "area": "Information Science", "inclusion": "Articles and full papers on bibliometric analysis", "exclusion": "Records unrelated to scientific mapping", "notes": "Fictitious project created only to demonstrate the features." },
   "temac": { "stage": {

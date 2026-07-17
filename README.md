@@ -54,10 +54,6 @@ The interface tests use Playwright. Install its Chromium browser with:
 npx playwright install chromium
 ```
 
-## Deployment
-
-Wasabi is a static application prepared for GitHub Pages. The workflow at `.github/workflows/deploy-pages.yml` runs the test suite, creates the production build, and publishes `dist/` from the `main` branch.
-
 ## License
 
 Wasabi is released under the MIT License. See [LICENSE](LICENSE).

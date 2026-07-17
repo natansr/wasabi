@@ -6,7 +6,7 @@
     "eyebrow": "Literature review and bibliometric analysis",
     "description": "In Wasabi, you record the review protocol, import and organize Scopus data, and analyze the corpus through bibliometric indicators, charts, and networks. Methodological decisions remain together in the same project, from the search to the final synthesis.",
     "newProject": "New project", "openProject": "Open project", "importProject": "Import .wasabi.json", "loadExample": "Load sample data",
-    "guideTitle": "How to begin", "guideDescription": "A literature review project can be prepared in a few steps:",
+    "guideTitle": "How to begin...", "guideDescription": "A literature review project can be prepared in a few steps:",
     "guide": {
       "create": { "title": "Create the project", "description": "Enter the question, scope, searched databases, and review criteria." },
       "import": { "title": "Import the corpus", "description": "Add the CSV file exported by the database you searched (for example, Scopus) and check the field mapping." },

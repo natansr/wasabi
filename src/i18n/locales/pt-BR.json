@@ -4,9 +4,9 @@
   "language": { "label": "Idioma", "portuguese": "Português", "english": "English" },
   "home": {
     "eyebrow": "Revisão da literatura e análise bibliométrica",
-    "description": "O Wasabi reúne o protocolo da revisão, o tratamento do corpus e as análises bibliométricas. Você registra as escolhas metodológicas e acompanha o trabalho até a síntese final.",
+    "description": "No Wasabi, você registra o protocolo da revisão, importa e organiza os dados do Scopus e analisa o corpus por meio de indicadores, gráficos e redes bibliométricas. As decisões metodológicas ficam reunidas no mesmo projeto, desde a busca até a síntese final.",
     "newProject": "Novo projeto", "openProject": "Abrir projeto", "importProject": "Importar .wasabi.json", "loadExample": "Carregar dados de exemplo",
-    "guideTitle": "Como começar", "guideDescription": "Um projeto pode ser preparado em poucos passos:",
+    "guideTitle": "Como começar", "guideDescription": "Um projeto de revisão da literatura pode ser preparado em poucos passos:",
     "guide": {
       "create": { "title": "Crie o projeto", "description": "Informe a pergunta, o recorte, as bases consultadas e os critérios da revisão." },
       "import": { "title": "Importe o corpus", "description": "Adicione o arquivo CSV exportado pelo Scopus e confira o mapeamento dos campos." },

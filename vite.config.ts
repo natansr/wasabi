@@ -32,7 +32,7 @@ export default defineConfig({
       },
     }),
   ],
-  base: './',
+  base: process.env.WASABI_BASE_PATH ?? './',
   build: {
     chunkSizeWarningLimit: 600,
   },

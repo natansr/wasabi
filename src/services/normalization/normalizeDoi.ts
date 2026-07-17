@@ -1,0 +1,1 @@
+export function normalizeDoi(value?: string) { const normalized = value?.trim().toLowerCase().replace(/^(?:https?:\/\/(?:dx\.)?doi\.org\/|doi\s*:\s*)/i, '').replace(/[\s.,;]+$/g, ''); return normalized || undefined; }

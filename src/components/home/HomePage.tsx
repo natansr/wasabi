@@ -42,7 +42,31 @@ export function HomePage() {
             </ol>
           </aside>
         </section>
-        <section className="border-y border-wasabi-100 bg-white px-5 py-14"><div className="mx-auto max-w-7xl"><div className="max-w-3xl"><h2 className="text-3xl font-bold text-wasabi-900">{t('home.temacTitle')}</h2><p className="mt-3 text-lg leading-8 text-slate-600">{t('home.temacDescription')}</p><a href="https://www.pesquisatemac.com" target="_blank" rel="noreferrer" className="mt-4 inline-block font-sans font-semibold text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">{t('home.temacLink')}</a></div><div className="mt-9 grid gap-5 md:grid-cols-3">{stages.map((stage, index) => <article key={stage} className="rounded-2xl border border-slate-200 p-5"><p className="font-sans text-sm font-bold text-wasabi-500">{index + 1}</p><h3 className="mt-2 text-xl font-bold text-slate-800">{t(`temac.stage.${stage}`)}</h3><p className="mt-2 leading-7 text-slate-600">{t(`temac.stage.${stage}Description`)}</p></article>)}</div></div></section>
+        <section className="border-y border-wasabi-100 bg-white px-5 py-14">
+          <div className="mx-auto max-w-7xl">
+            <div className="max-w-4xl">
+              <h2 className="text-3xl font-bold text-wasabi-900">{t('home.temacTitle')}</h2>
+              <p className="mt-3 text-lg leading-8 text-slate-600">{t('home.temacDescription')}</p>
+              <p className="mt-4 text-slate-600">{t('home.temacMoreInfo')}</p>
+              <div className="mt-3 flex flex-wrap gap-x-6 gap-y-3 font-sans font-semibold">
+                <a href="https://www.pesquisatemac.com" target="_blank" rel="noreferrer" className="text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">{t('home.temacLink')} ↗</a>
+                <a href="https://www.pesquisatemac.com/_files/ugd/344d4e_63c8f403712b44beacb0e45f3a5a07ec.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" className="h-5 w-5 fill-none stroke-current" strokeWidth="1.8"><path d="M6 2.75h8l4 4V21.25H6z"/><path d="M14 2.75v4h4M8.5 16.5v-5h1.75a1.5 1.5 0 0 1 0 3H8.5m4.75 2v-5h1.25a2 2 0 0 1 0 4h-1.25m4.25 1v-5h2.75"/></svg>
+                  {t('home.temacArticle')}
+                </a>
+              </div>
+            </div>
+            <div className="mt-10 grid items-center gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(22rem,.9fr)]">
+              <figure className="overflow-hidden rounded-3xl border border-wasabi-100 bg-slate-50 p-4 shadow-sm sm:p-7">
+                <img src="./temac-model.png" alt={t('home.temacImageAlt')} className="mx-auto h-auto w-full max-w-3xl" />
+                <figcaption className="mt-4 text-center text-sm leading-6 text-slate-500">{t('home.temacImageCaption')}</figcaption>
+              </figure>
+              <div className="grid gap-4">
+                {stages.map((stage, index) => <article key={stage} className="rounded-2xl border border-slate-200 p-5 shadow-sm"><div className="flex gap-4"><p className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-wasabi-100 font-sans text-sm font-bold text-wasabi-700">{index + 1}</p><div><h3 className="text-xl font-bold text-slate-800">{t(`temac.stage.${stage}`)}</h3><p className="mt-2 leading-7 text-slate-600">{t(`temac.stage.${stage}Description`)}</p></div></div></article>)}
+              </div>
+            </div>
+          </div>
+        </section>
       </PageContainer>
       <footer className="border-t border-slate-200 bg-slate-50 px-5 py-6 font-sans text-sm text-slate-600">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-3 gap-y-2 text-center">

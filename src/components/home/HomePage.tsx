@@ -48,7 +48,7 @@ export function HomePage() {
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-3 gap-y-2 text-center">
           <span>© 2026 Wasabi</span>
           <span aria-hidden="true">·</span>
-          <span>{t('home.footer.with')} <span role="img" aria-label={t('home.footer.heart')}>❤️</span> {t('home.footer.by')} ANDSol/UEG {t('home.footer.and')} <a href="http://dgp.cnpq.br/dgp/espelhogrupo/7367577310347657" target="_blank" rel="noreferrer" className="font-semibold text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">InfoKnow/UnB ↗</a></span>
+          <span>{t('home.footer.with')} S2 {t('home.footer.by')} ANDSol/UEG {t('home.footer.and')} <a href="http://dgp.cnpq.br/dgp/espelhogrupo/7367577310347657" target="_blank" rel="noreferrer" className="font-semibold text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">InfoKnow/UnB ↗</a></span>
           <span aria-hidden="true">·</span>
           <a href="https://github.com/natansr/wasabi" target="_blank" rel="noreferrer" className="font-semibold text-wasabi-700 underline decoration-wasabi-300 underline-offset-4">GitHub: natansr/wasabi ↗</a>
         </div>

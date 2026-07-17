@@ -13,7 +13,7 @@
       "review": { "title": "Revise os resultados", "description": "Examine duplicatas, indicadores, gráficos, redes e agrupamentos." },
       "export": { "title": "Guarde uma cópia", "description": "Exporte o projeto em .wasabi.json e gere as tabelas ou o relatório da revisão." }
     },
-    "temacTitle": "O fluxo metodológico do TEMAC", "temacDescription": "A organização do Wasabi segue as três etapas do TEMAC: preparação da pesquisa; apresentação e inter-relação dos dados; detalhamento e validação por evidências.", "temacLink": "Consultar o site Pesquisa TEMAC", "footer": { "with": "Desenvolvido com", "heart": "coração", "by": "por", "and": "e" }
+    "temacTitle": "O fluxo metodológico do TEMAC", "temacDescription": "A organização do Wasabi segue as três etapas do TEMAC: preparação da pesquisa; apresentação e inter-relação dos dados; detalhamento e validação por evidências.", "temacLink": "Consultar o site Pesquisa TEMAC", "footer": { "with": "Desenvolvido com", "by": "por", "and": "e" }
   },
   "sample": { "title": "Exemplo: mapeamento científico integrado", "objective": "Demonstrar o fluxo bibliométrico integrado do Wasabi.", "question": "Como métodos bibliométricos apoiam a síntese de evidências?", "area": "Ciência da Informação", "inclusion": "Artigos e trabalhos completos sobre análise bibliométrica", "exclusion": "Registros sem relação com mapeamento científico", "notes": "Projeto fictício criado apenas para demonstração das funcionalidades." },
   "temac": { "stage": {

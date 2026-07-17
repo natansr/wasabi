@@ -13,7 +13,7 @@
       "review": { "title": "Review the results", "description": "Examine duplicates, indicators, charts, networks, and clusters." },
       "export": { "title": "Keep a copy", "description": "Export the project as .wasabi.json and generate review tables or the report." }
     },
-    "temacTitle": "The TEMAC methodological workflow", "temacDescription": "Wasabi follows the three TEMAC stages: research preparation; data presentation and interrelation; and evidence detailing and validation.", "temacLink": "Visit the Pesquisa TEMAC website", "footer": { "by": "Developed by ANDSol/UEG", "with": "Developed with S2" }
+    "temacTitle": "The TEMAC methodological workflow", "temacDescription": "Wasabi follows the three TEMAC stages: research preparation; data presentation and interrelation; and evidence detailing and validation.", "temacLink": "Visit the Pesquisa TEMAC website", "footer": { "by": "Developed by", "and": "and", "with": "Developed with S2" }
   },
   "sample": { "title": "Example: integrated scientific mapping", "objective": "Demonstrate Wasabi's integrated bibliometric workflow.", "question": "How do bibliometric methods support evidence synthesis?", "area": "Information Science", "inclusion": "Articles and full papers on bibliometric analysis", "exclusion": "Records unrelated to scientific mapping", "notes": "Fictitious project created only to demonstrate the features." },
   "temac": { "stage": {

@@ -6,7 +6,7 @@
 
 Workflow for Systematic and Bibliometric Integrated Analysis (*Workflow de Análise Sistemática e Bibliométrica Integrada*).
 
-Wasabi is a free, bilingual web application for literature reviews, bibliometric analysis, scientific mapping, and the computational application of [TEMAC](https://www.pesquisatemac.com) — Consolidated Meta-Analytical Approach Theory (*Teoria do Enfoque Meta-Analítico Consolidado*).
+Wasabi is a web application designed to support literature reviews, bibliometric analysis, scientific mapping, and the computational application of [TEMAC](https://www.pesquisatemac.com) — Consolidated Meta-Analytical Approach Theory (*Teoria do Enfoque Meta-Analítico Consolidado*).
 
 ## Features
 

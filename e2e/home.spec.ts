@@ -23,6 +23,9 @@ test('apresenta o início e navega para um novo projeto', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Novo projeto de revisão' })).toBeVisible();
   await expect(page.getByRole('radio', { name: 'Detectar pelo CSV' })).toBeChecked();
   await expect(page.getByLabel('Ano inicial')).toBeDisabled();
+  await expect(page.getByRole('heading', { name: 'Escopo e seleção dos estudos' })).toBeVisible();
+  await page.getByRole('button', { name: 'Explicar o campo Critérios de inclusão' }).click();
+  await expect(page.getByRole('tooltip').filter({ hasText: 'Regras para manter um estudo' })).toBeVisible();
 });
 
 test('troca o idioma e mantém a preferência', async ({ page }) => {

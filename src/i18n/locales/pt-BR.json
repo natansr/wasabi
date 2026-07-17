@@ -1,5 +1,5 @@
 {
-  "app": { "name": "Wasabi", "subtitle": "Workflow de Análise Sistemática e Bibliométrica Integrada" },
+  "app": { "name": "Wasabi", "subtitle": "Workflow de Análise SistemáticA e Bibliométrica Integrada" },
   "nav": { "about": "Sobre o TEMAC", "projects": "Projetos", "settings": "Configurações" },
   "language": { "label": "Idioma", "portuguese": "Português", "english": "English" },
   "home": {

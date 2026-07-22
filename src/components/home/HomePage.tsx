@@ -27,6 +27,9 @@ export function HomePage() {
             <h1 className="mt-3 max-w-3xl text-5xl font-black tracking-tight text-wasabi-900 sm:text-6xl">{t('app.name')}</h1>
             <p className="mt-4 max-w-2xl text-xl font-semibold leading-relaxed text-slate-700">{t('app.subtitle')}</p>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">{t('home.description')}</p>
+            <a href="https://doi.org/10.5281/zenodo.21500425" target="_blank" rel="noreferrer" aria-label="Wasabi DOI on Zenodo" className="mt-5 inline-block rounded shadow-sm transition hover:opacity-85 focus:outline-none focus:ring-2 focus:ring-wasabi-400 focus:ring-offset-2">
+              <img src="https://zenodo.org/badge/1303962083.svg" alt="DOI: 10.5281/zenodo.21500425" className="h-5 w-auto" />
+            </a>
             <div className="mt-9 flex flex-wrap gap-3 font-sans">
               <Link to="/projects/new" className="rounded-xl bg-wasabi-700 px-5 py-3 font-semibold text-white shadow-lg transition hover:bg-wasabi-900">{t('home.newProject')}</Link>
               <Link to="/projects" className="rounded-xl border border-slate-200 bg-white px-5 py-3 font-semibold text-slate-700 shadow-sm transition hover:border-wasabi-300 hover:text-wasabi-700">{t('home.openProject')}</Link>

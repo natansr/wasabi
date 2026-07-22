@@ -4,3 +4,14 @@ playwright-report
 test-results
 .DS_Store
 *.local
+
+# Real bibliographic exports
+data/scopus*.csv
+data/*scopus*.csv
+data/raw/
+exports/*.wasabi.json
+
+# Keep synthetic/demo files
+!data/examples/
+!data/examples/*.csv
+!data/examples/*.json

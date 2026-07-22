@@ -32,7 +32,7 @@ export function ProjectForm({ project, onSave }: Props) {
         inclusionCriteria: lines(form.inclusionCriteria), exclusionCriteria: lines(form.exclusionCriteria), methodologicalNotes: form.methodologicalNotes.trim() || undefined,
         importedRecords: project?.importedRecords ?? [], deduplicatedRecords: project?.deduplicatedRecords ?? [], duplicateGroups: project?.duplicateGroups,
         analysisResults: project?.analysisResults, networks: project?.networks, visualSettings: project?.visualSettings, clusterInterpretations: project?.clusterInterpretations, visualizationNotes: project?.visualizationNotes, reviewSynthesis: project?.reviewSynthesis,
-        preferredLanguage: i18n.resolvedLanguage === 'pt-BR' ? 'pt-BR' : 'en-US', createdAt: project?.createdAt ?? now, updatedAt: now, appVersion: '0.1.0',
+        preferredLanguage: i18n.resolvedLanguage === 'pt-BR' ? 'pt-BR' : 'en-US', createdAt: project?.createdAt ?? now, updatedAt: now, appVersion: '0.1.1',
       });
     } catch { setError(t('errors.saveProject')); } finally { setSaving(false); }
   };

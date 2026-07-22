@@ -1,0 +1,26 @@
+{
+  "title": "Wasabi: Workflow for Systematic and Bibliometric Integrated Analysis",
+  "upload_type": "software",
+  "description": "<p>Wasabi is an open-source web platform designed to support bibliometric literature reviews, scientific mapping, and TEMAC-based review workflows. The software provides project registration, Scopus CSV import, field mapping, metadata normalization, duplicate identification, bibliometric indicators, scientific networks, community detection, density and overlay visualizations, annotations, and exportable reports.</p><p>The current release processes imported files locally in the user's browser. Raw Scopus exports used in research case studies are not redistributed due to database licensing restrictions.</p>",
+  "creators": [
+    {
+      "name": "de S. Rodrigues, Natan",
+      "orcid": "0000-0002-0785-4397",
+      "affiliation": "Universidade Estadual de Goiás (UEG), Brazil"
+    }
+  ],
+  "access_right": "open",
+  "license": "GPL-3.0-or-later",
+  "version": "0.1.1",
+  "language": "eng",
+  "keywords": [
+    "bibliometrics",
+    "literature review",
+    "scientific mapping",
+    "citation analysis",
+    "TEMAC",
+    "research software",
+    "web application"
+  ],
+  "notes": "This release includes source code, documentation, and synthetic sample data. Raw Scopus exports are not included due to licensing restrictions."
+}

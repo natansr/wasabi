@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use Wasabi, please cite it as below."
+type: software
+title: "Wasabi: Workflow for Systematic and Bibliometric Integrated Analysis"
+abstract: "Wasabi is an open-source web platform for bibliometric literature reviews, scientific mapping, and TEMAC-based review workflows."
+authors:
+  - family-names: "de S. Rodrigues"
+    given-names: "Natan"
+    orcid: "https://orcid.org/0000-0002-0785-4397"
+version: "0.1.1"
+doi: "10.5281/zenodo.21500425"
+date-released: "2026-07-22"
+license: "GPL-3.0-or-later"
+repository-code: "https://github.com/natansr/wasabi"
+url: "https://natansr.github.io/wasabi/"
+keywords:
+  - bibliometrics
+  - literature review
+  - scientific mapping
+  - citation analysis
+  - TEMAC
+  - research software
+  - web application

@@ -4,13 +4,15 @@
 
 # Wasabi
 
+[![DOI](https://zenodo.org/badge/1303962083.svg)](https://doi.org/10.5281/zenodo.21500425)
+
 Workflow for Systematic and Bibliometric Integrated Analysis (*Workflow de Análise SistemáticA e Bibliométrica Integrada*).
 
 Wasabi is a web application designed to support literature reviews, bibliometric analysis, scientific mapping, and the computational application of [TEMAC](https://www.pesquisatemac.com) — Consolidated Meta-Analytical Approach Theory (*Teoria do Enfoque Meta-Analítico Consolidado*). It brings together the review protocol, records retrieved from bibliographic databases, methodological choices, analyses, and the final synthesis in a single project.
 
 [Open Wasabi](https://natansr.github.io/wasabi/)
 
-Current version: **0.1.0**.
+Current version: **0.1.1**.
 
 ## Features
 
@@ -32,6 +34,14 @@ The current version accepts Scopus CSV files. Support for additional databases i
 ## Privacy
 
 Imported files are not sent to external servers. Reading, storage, and analysis take place in the browser. Export the `.wasabi.json` project file to keep a backup or share the project.
+
+## Data availability
+
+This repository includes source code, documentation, and synthetic sample data for demonstration and testing.
+
+Raw Scopus exports used in research case studies are not redistributed due to database licensing restrictions.
+
+Wasabi processes imported data locally in the browser. Files imported into Wasabi are not sent to external servers by the application.
 
 ## Development
 
@@ -64,4 +74,6 @@ Wasabi is free software released under the GNU General Public License, version 3
 
 ## Citation
 
-If you use Wasabi, please cite it. Citation details will be available soon.
+If you use Wasabi, please cite it as:
+
+> de S. Rodrigues, N. (2026). *Wasabi: Workflow for Systematic and Bibliometric Integrated Analysis* (Version 0.1.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21500425
